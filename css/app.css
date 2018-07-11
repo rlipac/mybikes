@@ -1,14 +1,21 @@
-*{
-     padding: 0px;
-     margin: 0px;
- }
- 
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
 footer {
     background-color: #fafafa ;
     text-align: center;
 }
-    .encabezado {
+   .encabezado {
         background: url(../images/header_web_2.jpg);
+        max-width: 1360px;
         
 
     
@@ -157,7 +164,7 @@ footer {
 
     .markert p, button{ 
         margin-bottom: 4px;
-        font-size: 10px;
+        font-size: 12px;
     }
     .markert button {
         position: relative;
